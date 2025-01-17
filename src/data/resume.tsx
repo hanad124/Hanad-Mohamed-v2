@@ -60,6 +60,12 @@ export const DATA = {
 
         navbar: false,
       },
+      whatsapp: {
+        name: "whatsapp",
+        url: "https://wa.me/252614488101",
+        icon: Icons.whatsapp,
+        navbar: true
+      }
     },
   },
 
@@ -254,7 +260,6 @@ export const DATA = {
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
     {
