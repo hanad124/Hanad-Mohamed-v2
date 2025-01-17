@@ -218,7 +218,7 @@ export const DATA = {
       dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a Construction Inventory Management System for Furqan Constructions to efficiently manage and monitor construction materials and equipment inventory.",
       technologies: [
         "Next.js",
         "Typescript",
