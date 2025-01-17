@@ -81,11 +81,10 @@ export default function ContactForm() {
           href={DATA.resumeUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 bg-primary py-2 rounded-md w-full flex items-center justify-center gap-2 text-sm font-semibold text-muted-foreground"
+          className="mt-4 bg-primary py-2 rounded-md w-full flex items-center justify-center gap-2 text-sm font-semibold text-muted-foreground hover:bg-primary/80 group"
         >
-
-          <FileDownIcon className="h-4 w-4 text-white dark:text-black"  />
-         <span className="text-white dark:text-black"> Get Resume</span>
+          <FileDownIcon className="h-4 w-4 text-white dark:text-black transform transition-transform group-hover:translate-y-[-2px] group-hover:scale-110"  />
+          <span className="text-white dark:text-black">Get Resume</span>
         </a>
       </div>
 
@@ -100,7 +99,7 @@ export default function ContactForm() {
               {...register("email")}
               type="email"
               placeholder="email address"
-              className="w-full py-2 px-3 rounded-md border border-gray-200"
+              className="w-full py-2 px-3 rounded-md border "
             />
             {errors.email && (
               <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>
@@ -115,7 +114,7 @@ export default function ContactForm() {
               {...register("name")}
               type="text"
               placeholder="write subject"
-              className="w-full py-2 px-3 rounded-md border border-gray-200"
+              className="w-full py-2 px-3 rounded-md border "
             />
             {errors.name && (
               <p className="mt-1 text-sm text-red-600">{errors.name.message}</p>
@@ -130,7 +129,7 @@ export default function ContactForm() {
               {...register("message")}
               rows={4}
               placeholder="write your message here"
-              className="w-full py-2 px-3 rounded-md border border-gray-200"
+              className="w-full py-2 px-3 rounded-md border "
             />
             {errors.message && (
               <p className="mt-1 text-sm text-red-600">{errors.message.message}</p>
@@ -142,7 +141,7 @@ export default function ContactForm() {
           <Button
             type="submit"
             disabled={isSubmitting}
-            className="bg-black text-white px-8 py-2 rounded-lg hover:bg-gray-800"
+            className="bg-black text-white px-8 py-2 rounded-lg hover:bg-gray-800 dark:hover:bg-white/60 dark:bg-white dark:text-black"
           >
             {isSubmitting ? "Sending..." : "Submit"}
           </Button>
