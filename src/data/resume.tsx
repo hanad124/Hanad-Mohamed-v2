@@ -9,7 +9,7 @@ export const DATA = {
   location: "Mogadishu, Somalia",
   locationLink: "https://www.google.com/maps/place/mogadishu",
   description:
-    "Full Stack Developer with expertise in building seamless user experiences and scalable systems",
+    "Software Developer with expertise in building seamless user experiences and scalable systems",
   summary:
     "I'm Hanad Mohamed, a resourceful and self-taught software developer with an enthusiasm for developing imaginative digital solutions. Through 1+ year of practical experience, I've honed my skills in transforming creative concepts into tangible software products. My journey has been marked by opportunities.",
   avatarUrl: "/me.png",
