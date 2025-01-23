@@ -264,7 +264,7 @@ export const DATA = {
     },
     {
       title: "TikTok Video Downloader",
-      href: "https://tabaarakict.vercel.app/",
+      href: "https://tiktok-video-downloader-five.vercel.app/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
