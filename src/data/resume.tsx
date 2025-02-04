@@ -158,6 +158,25 @@ export const DATA = {
       video: "",
     },
     {
+      title: "DripSave - All In One Video Downloader App",
+      href: "#",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "DripSave is a modern, sleek, and user-friendly video downloader app designed for YouTube, TikTok and Facebook videos, with plans to scale to other social media platforms. The app allows users to effortlessly download and save videos, without watermark",
+      technologies: [
+        "React native",
+        "Typescript",
+        "Nativewind",
+        "RTK",
+        "Zustand",
+        "Node (Express)",
+      ],
+      links: [],
+      image: "/projects/dripsave-thumbnail.png",
+      video: "",
+    },
+    {
       title: "e-Financer Mobile App",
       href: "https://github.com/hanad124/e-financer-app",
       dates: "June 2023 - Present",
